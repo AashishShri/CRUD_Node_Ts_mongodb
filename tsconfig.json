@@ -4,6 +4,8 @@
         "moduleResolution": "node",
         "pretty": true,
         "sourceMap": true,
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports":true,
         "target": "es6",
         "outDir": "./dist",
         "baseUrl": "./lib"

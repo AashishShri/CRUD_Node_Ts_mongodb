@@ -5,3 +5,24 @@
 2020-04-08 18:29:43 info [server.js]: testing
 2020-04-08 18:31:01 info [server.js]: testing
 2020-04-08 18:33:48 info [server.js]: Initaiated getContacts ok
+2020-04-08 19:24:04 info [server.js]: Initaiated getContacts ok
+2020-04-08 20:48:01 info [server.js]: Initaiated getContacts ok
+2020-04-08 21:13:15 info [server.js]: Initaiated getContacts ok
+2020-04-08 21:16:16 info [server.js]: Initaiated getContacts ok
+2020-04-08 21:19:24 info [server.js]: Initaiated getContacts ok
+2020-04-08 21:20:06 info [server.js]: Initaiated getContacts ok
+2020-04-08 21:20:18 info [server.js]: Initaiated getContacts ok
+2020-04-08 22:33:13 info [server.js]: Initaiated getContacts ok1
+2020-04-08 22:37:15 info [server.js]: registerUser controller
+2020-04-08 22:37:26 info [server.js]: authenticateJWT
+2020-04-08 22:37:26 info [server.js]: Initaiated getContacts
+2020-04-08 22:37:32 info [server.js]: authenticateJWT
+2020-04-08 22:37:37 info [server.js]: authenticateJWT
+2020-04-08 22:37:37 info [server.js]: Initaiated getContacts
+2020-04-08 22:59:10 info [server.js]: authenticateJWT
+2020-04-08 22:59:10 info [server.js]: Initaiated getContacts
+2020-04-08 23:00:38 info [server.js]: Express server listening on port : 3000
+2020-04-08 23:06:07 info [server.js]: Express server listening on port : 3000
+2020-04-08 23:09:23 info [server.js]: Express server listening on port : 3000
+2020-04-08 23:09:30 info [server.js]: authenticateJWT
+2020-04-08 23:09:30 info [server.js]: Initaiated getContacts
