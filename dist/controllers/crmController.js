@@ -15,7 +15,7 @@ class ContactController {
         });
     }
     getContacts(req, res) {
-        logger.info("testing");
+        logger.info("Initaiated getContacts ok");
         Contact.find({}, (err, contact) => {
             if (err) {
                 res.send(err);
