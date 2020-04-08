@@ -1,0 +1,5 @@
+db.createUser({
+... user:"Aashish",
+... pwd :"123456",
+... roles:[{role:'readWrite',db : 'CRMdb'}]
+... })
