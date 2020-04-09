@@ -1,0 +1,21 @@
+
+{
+	"swagger": {
+		"outputDirectory": ".",
+        "entryFile": "./lib/server.ts",
+        "name": "Typescript-rest Boilerplate Application",
+        "description": "A Sample application using Typescipt-rest library",
+        "license": "MIT",
+		"version": "0.0.1",
+		"produces": ["application/json"]
+	},
+	"routes": {
+		"basePath": "/",
+		"entryFile": "./lib/server.ts",
+		"routesDir": "./lib"
+	}
+}
+
+
+
+  

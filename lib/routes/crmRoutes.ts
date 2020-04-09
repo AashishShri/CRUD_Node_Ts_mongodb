@@ -6,9 +6,9 @@ export class Routes {
   public contactController: ContactController = new ContactController();
   public authController: AuthController = new AuthController();
   
-
   public routes(app): void {
     console.log("This is crn routes");
+    
     app.route("/").get((req: Request, res: Response) => {
       res.status(200).send({
         message: "GET request successfulll!!!!",
@@ -17,6 +17,7 @@ export class Routes {
     // app.use(this.authController.authenticateJWT)
 
     // Get all contacts
+    
     app.route("/contact").get(this.authController.authenticateJWT,this.contactController.getContacts);
     // Create a new contact
     app.route("/contact").post(this.authController.authenticateJWT,this.contactController.addNewContact);

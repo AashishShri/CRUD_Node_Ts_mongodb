@@ -22,7 +22,9 @@ export class UserController {
 
     });
     // Here we are calling sending mail helper method
-    await sendMail.sendMail({to:req.body.email});
+    if (req.body.email) {
+      await sendMail.sendMail({to:req.body.email});
+    }
     // Here we are calling sending smd helper method
     const token = jwt.sign({ username: req.body.username, scope : req.body.scope }, JWT_SECRET);
     res.status(200).send({ token: token });

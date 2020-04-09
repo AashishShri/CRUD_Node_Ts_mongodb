@@ -15,19 +15,29 @@ const express_1 = __importDefault(require("express"));
 const bodyParser = __importStar(require("body-parser"));
 const crmRoutes_1 = require("./routes/crmRoutes");
 const userRoutes_1 = require("./routes/userRoutes");
+// import * as swaggerUi from 'swagger-ui-express';
 const mongoose_1 = __importDefault(require("mongoose"));
+const typescript_rest_1 = require("typescript-rest");
+const path_1 = __importDefault(require("path"));
 class App {
     constructor() {
         this.routePrv = new crmRoutes_1.Routes();
         this.routePrv1 = new userRoutes_1.UserRoutes();
         // public mongoUrl: string = 'mongodb://localhost/CRMdb';
         this.mongoUrl = "mongodb://Aashish:123456@localhost:27017/CRMdb";
+        this.server = null;
         this.app = express_1.default();
         this.config();
         this.routePrv.routes(this.app);
         this.routePrv1.userRoutes(this.app);
         this.mongoSetup();
-        process.env['NODE_CONFIG_DIR'] = __dirname + '../config';
+        // process.env['NODE_CONFIG_DIR'] = __dirname + '../config';
+        typescript_rest_1.Server.swagger(this.app, {
+            endpoint: 'api-docs',
+            filePath: path_1.default.resolve(process.cwd(), './swagger.json'),
+            host: 'localhost',
+            schemes: ['http'],
+        });
     }
     config() {
         this.app.use(bodyParser.json());

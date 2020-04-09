@@ -1,0 +1,13 @@
+basePath: null
+definitions: {}
+info:
+    description: 'A Sample application using Typescipt-rest library'
+    license:
+        name: MIT
+    title: 'Typescript-rest Boilerplate Application'
+    version: 0.0.1
+paths: {}
+swagger: '2.0'
+securityDefinitions: {}
+produces:
+    - application/json

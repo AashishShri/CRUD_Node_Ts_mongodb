@@ -14,7 +14,7 @@ export const userSchema: Schema = new Schema({
   password: String,
   email:String,
   phone:Number
-});
+},{ timestamps: true },);
 
 
 userSchema.pre<IUser>("save", function save(next) {

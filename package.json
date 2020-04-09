@@ -4,12 +4,14 @@
   "description": "\"CRUD opertaion with node express type script mongoDb\"",
   "main": "dist/lib/server.js",
   "scripts": {
-    "build": "tsc",
+    "build": "npm run clean && tsc && copyfiles -u 1 \"src/**/views/*.hbs\" dist/ && npm run swagger",
     "dev": "nodemon -L -e ts,json --exec \"npm run compile\"",
     "compile": "tsc && node ./dist/server.js",
-    "start": "ts-node-dev ./dist/server.js",
+    "start": "ts-node ./lib/server.ts",
+    "generate": "tsoa swagger && tsoa routes",
     "debug": "ts-node-dev --inspect=9234 --transpileOnly --watch src/ --clear --exit-child ./dist/server.js",
-    "prod": "npm run build && npm run start"
+    "prod": "npm run build && npm run start",
+    "swagger": "swaggerGen -c ./swagger.config.json"
   },
   "author": "Aashish <Aashish.shrivastava2015@gmail.com>",
   "repository": {
@@ -41,6 +43,9 @@
     "passport": "0.4.1",
     "passport-jwt": "4.0.0",
     "passport-local": "1.0.0",
+    "swagger": "0.7.5",
+    "typescript-rest": "3.0.1",
+    "typescript-rest-swagger": "1.1.1",
     "uuid": "^3.3.2",
     "winston": "3.2.1"
   }

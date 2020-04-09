@@ -198,3 +198,32 @@
 2020-04-09 17:49:32 info [server.js]: registerUser controller
 2020-04-09 18:21:20 info [server.js]: Express server listening on port : 3000
 2020-04-09 18:21:28 info [server.js]: registerUser controller
+2020-04-09 18:32:33 info [server.js]: Express server listening on port : 3000
+2020-04-09 19:20:12 info [server.js]: Express server listening on port : 3000
+2020-04-09 19:20:57 info [server.js]: registerUser controller
+2020-04-09 19:22:10 info [server.js]: Express server listening on port : 3000
+2020-04-09 19:22:18 info [server.js]: registerUser controller
+2020-04-09 19:27:49 info [server.ts]: Express server listening on port : 3000
+2020-04-09 19:28:36 info [server.js]: Express server listening on port : 3000
+2020-04-09 19:50:43 info [server.js]: Express server listening on port : 3000
+2020-04-09 20:15:56 info [server.js]: Express server listening on port : 3000
+2020-04-09 21:03:54 info [server.js]: Express server listening on port : 3000
+2020-04-09 21:10:43 info [server.js]: Express server listening on port : 3000
+2020-04-09 21:16:09 info [server.js]: Express server listening on port : 3000
+2020-04-09 21:16:41 info [server.js]: authenticateJWT
+2020-04-09 21:16:41 info [server.js]: Initaiated getContacts
+2020-04-09 21:20:56 info [server.js]: Express server listening on port : 3000
+2020-04-09 21:28:09 info [server.js]: Express server listening on port : 3000
+2020-04-09 22:08:13 info [server.js]: Express server listening on port : 3000
+2020-04-09 22:13:14 info [server.js]: Express server listening on port : 3000
+2020-04-09 22:23:21 info [server.js]: Express server listening on port : 3000
+2020-04-09 22:27:11 info [server.js]: Express server listening on port : 3000
+2020-04-09 22:30:21 info [server.js]: Express server listening on port : 3001
+2020-04-09 22:40:01 info [server.js]: Express server listening on port : 3000
+2020-04-09 22:40:09 info [server.js]: authenticateJWT
+2020-04-09 22:40:09 info [server.js]: Initaiated getContacts
+2020-04-09 22:40:27 info [server.js]: authenticateJWT
+2020-04-09 22:40:35 info [server.js]: registerUser controller
+2020-04-09 22:41:21 info [server.js]: Express server listening on port : 3000
+2020-04-09 22:41:34 info [server.js]: authenticateJWT
+2020-04-09 22:41:34 info [server.js]: Initaiated getContacts
