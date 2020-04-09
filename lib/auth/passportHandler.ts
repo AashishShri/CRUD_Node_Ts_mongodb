@@ -11,6 +11,7 @@ const JwtStrategy = passportJwt.Strategy;
 const ExtractJwt = passportJwt.ExtractJwt;
 
 passport.use(new LocalStrategy({ usernameField: "username" }, (username, password, done) => {
+  
   User.findOne({ username: username.toLowerCase() }, (err, user: any) => {
     if (err) { return done(err); }
     if (!user) {

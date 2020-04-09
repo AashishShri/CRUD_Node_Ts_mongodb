@@ -11,6 +11,7 @@ class App {
   public routePrv1: UserRoutes = new UserRoutes();
   // public mongoUrl: string = 'mongodb://localhost/CRMdb';
   public mongoUrl: string = "mongodb://Aashish:123456@localhost:27017/CRMdb";
+  
 
   constructor() {
     this.app = express();
@@ -18,6 +19,7 @@ class App {
     this.routePrv.routes(this.app);
     this.routePrv1.userRoutes(this.app);
     this.mongoSetup();
+    process.env['NODE_CONFIG_DIR'] = __dirname + '../config';
   }
 
   private config(): void {

@@ -26,3 +26,175 @@
 2020-04-08 23:09:23 info [server.js]: Express server listening on port : 3000
 2020-04-08 23:09:30 info [server.js]: authenticateJWT
 2020-04-08 23:09:30 info [server.js]: Initaiated getContacts
+2020-04-09 11:35:20 info [server.js]: Express server listening on port : 3000
+2020-04-09 11:36:05 info [server.js]: registerUser controller
+2020-04-09 11:39:18 info [server.js]: Express server listening on port : 3000
+2020-04-09 11:41:18 info [server.js]: authenticateUser controller
+2020-04-09 11:41:46 info [server.js]: Express server listening on port : 3000
+2020-04-09 11:42:20 info [server.js]: authenticateUser controller
+2020-04-09 11:43:46 info [server.js]: Express server listening on port : 3000
+2020-04-09 11:43:50 info [server.js]: authenticateUser controller
+2020-04-09 11:45:32 info [server.js]: registerUser controller
+2020-04-09 11:55:22 info [server.js]: Express server listening on port : 3000
+2020-04-09 11:55:29 info [server.js]: Express server listening on port : 3000
+2020-04-09 11:55:37 info [server.js]: authenticateUser controller
+2020-04-09 11:56:14 info [server.js]: Express server listening on port : 3000
+2020-04-09 11:56:17 info [server.js]: authenticateUser controller1 
+2020-04-09 11:56:31 info [server.js]: Express server listening on port : 3000
+2020-04-09 11:56:34 info [server.js]: authenticateUser controller1 
+2020-04-09 11:56:54 info [server.js]: Express server listening on port : 3000
+2020-04-09 11:56:58 info [server.js]: authenticateUser controller1 
+2020-04-09 11:57:29 info [server.js]: Express server listening on port : 3000
+2020-04-09 11:57:37 info [server.js]: registerUser controller
+2020-04-09 11:58:31 info [server.js]: Express server listening on port : 3000
+2020-04-09 11:59:26 info [server.js]: Express server listening on port : 3000
+2020-04-09 12:06:14 info [server.js]: Express server listening on port : 3000
+2020-04-09 12:09:42 info [server.js]: Express server listening on port : 3000
+2020-04-09 12:14:48 info [server.js]: Express server listening on port : 3000
+2020-04-09 12:15:53 info [server.js]: Express server listening on port : 3000
+2020-04-09 12:16:33 info [server.js]: Express server listening on port : 3000
+2020-04-09 12:17:33 info [server.js]: Express server listening on port : 3000
+2020-04-09 12:17:38 info [server.js]: registerUser controller
+2020-04-09 12:24:42 info [server.js]: Express server listening on port : 3000
+2020-04-09 12:36:45 info [server.js]: Express server listening on port : 3000
+2020-04-09 12:40:02 info [server.js]: Express server listening on port : 3000
+2020-04-09 12:42:30 info [server.js]: Express server listening on port : 3000
+2020-04-09 12:46:06 info [server.js]: Express server listening on port : 3000
+2020-04-09 12:46:13 info [server.js]: registerUser controller
+2020-04-09 12:48:04 info [server.js]: Express server listening on port : 3000
+2020-04-09 12:49:34 info [server.js]: Express server listening on port : 3000
+2020-04-09 12:51:52 info [server.js]: Express server listening on port : 3000
+2020-04-09 12:58:20 info [server.js]: Express server listening on port : 3000
+2020-04-09 13:08:34 info [server.js]: Express server listening on port : 3000
+2020-04-09 13:11:43 info [server.js]: Express server listening on port : 3000
+2020-04-09 13:11:54 info [server.js]: registerUser controller
+2020-04-09 13:12:58 info [server.js]: Express server listening on port : 3000
+2020-04-09 13:13:08 info [server.js]: registerUser controller
+2020-04-09 13:15:27 info [server.js]: Express server listening on port : 3000
+2020-04-09 13:18:24 info [server.js]: Express server listening on port : 3000
+2020-04-09 14:21:34 info [server.js]: Express server listening on port : 3000
+2020-04-09 14:21:59 info [server.js]: registerUser controller
+2020-04-09 14:22:43 info [server.js]: Express server listening on port : 3000
+2020-04-09 14:22:49 info [server.js]: registerUser controller
+2020-04-09 14:26:31 info [server.js]: Express server listening on port : 3000
+2020-04-09 14:26:44 info [server.js]: registerUser controller
+2020-04-09 14:27:04 info [server.js]: Express server listening on port : 3000
+2020-04-09 14:27:09 info [server.js]: registerUser controller
+2020-04-09 14:33:14 info [server.js]: Express server listening on port : 3000
+2020-04-09 14:33:25 info [server.js]: registerUser controller
+2020-04-09 14:34:15 info [server.js]: Express server listening on port : 3000
+2020-04-09 14:34:34 info [server.js]: registerUser controller
+2020-04-09 14:34:57 info [server.js]: Express server listening on port : 3000
+2020-04-09 14:35:07 info [server.js]: registerUser controller
+2020-04-09 14:44:45 info [server.js]: Express server listening on port : 3000
+2020-04-09 14:44:53 info [server.js]: registerUser controller
+2020-04-09 14:51:39 info [server.js]: Express server listening on port : 3000
+2020-04-09 14:51:46 info [server.js]: registerUser controller
+2020-04-09 14:52:37 info [server.js]: Express server listening on port : 3000
+2020-04-09 14:52:47 info [server.js]: Express server listening on port : 3000
+2020-04-09 14:52:56 info [server.js]: authenticateJWT
+2020-04-09 14:53:08 info [server.js]: authenticateJWT
+2020-04-09 14:53:08 info [server.js]: Initaiated getContacts
+2020-04-09 14:53:28 info [server.js]: Express server listening on port : 3000
+2020-04-09 14:56:29 info [server.js]: Express server listening on port : 3000
+2020-04-09 14:56:42 info [server.js]: authenticateJWT
+2020-04-09 14:56:42 info [server.js]: Initaiated getContacts
+2020-04-09 14:58:36 info [server.js]: Express server listening on port : 3000
+2020-04-09 14:58:44 info [server.js]: authenticateJWT
+2020-04-09 14:58:45 info [server.js]: Initaiated getContacts
+2020-04-09 15:00:34 info [server.js]: Express server listening on port : 3000
+2020-04-09 15:00:50 info [server.js]: authenticateJWT
+2020-04-09 15:00:50 info [server.js]: Initaiated getContacts
+2020-04-09 15:04:48 info [server.js]: Express server listening on port : 3000
+2020-04-09 15:05:38 info [server.js]: Express server listening on port : 3000
+2020-04-09 15:06:42 info [server.js]: Express server listening on port : 3000
+2020-04-09 15:06:54 info [server.js]: authenticateJWT
+2020-04-09 15:06:54 info [server.js]: Initaiated getContacts
+2020-04-09 15:11:37 info [server.js]: Express server listening on port : 3000
+2020-04-09 15:11:59 info [server.js]: Express server listening on port : 3000
+2020-04-09 15:12:09 info [server.js]: Express server listening on port : 3000
+2020-04-09 15:12:24 info [server.js]: Express server listening on port : 3000
+2020-04-09 15:12:58 info [server.js]: Express server listening on port : 3000
+2020-04-09 15:13:02 info [server.js]: Express server listening on port : 3000
+2020-04-09 15:13:08 info [server.js]: Express server listening on port : 3000
+2020-04-09 15:13:49 info [server.js]: Express server listening on port : 3000
+2020-04-09 15:14:07 info [server.js]: Express server listening on port : 3000
+2020-04-09 15:18:29 info [server.js]: Express server listening on port : 3000
+2020-04-09 15:18:54 info [server.js]: Express server listening on port : 3000
+2020-04-09 15:19:53 info [server.js]: Express server listening on port : 3000
+2020-04-09 15:21:05 info [server.js]: Express server listening on port : 3000
+2020-04-09 15:21:55 info [server.js]: registerUser controller
+2020-04-09 15:22:51 info [server.js]: Express server listening on port : 3000
+2020-04-09 15:23:06 info [server.js]: registerUser controller
+2020-04-09 15:23:50 info [server.js]: Express server listening on port : 3000
+2020-04-09 15:24:20 info [server.js]: Express server listening on port : 3000
+2020-04-09 15:24:38 info [server.js]: registerUser controller
+2020-04-09 15:25:14 info [server.js]: Express server listening on port : 3000
+2020-04-09 15:26:05 info [server.js]: Express server listening on port : 3000
+2020-04-09 15:26:08 info [server.js]: registerUser controller
+2020-04-09 15:26:49 info [server.js]: Express server listening on port : 3000
+2020-04-09 15:27:18 info [server.js]: Express server listening on port : 3000
+2020-04-09 15:27:24 info [server.js]: Express server listening on port : 3000
+2020-04-09 15:27:36 info [server.js]: registerUser controller
+2020-04-09 15:28:56 info [server.js]: Express server listening on port : 3000
+2020-04-09 15:29:01 info [server.js]: registerUser controller
+2020-04-09 15:29:38 info [server.js]: Express server listening on port : 3000
+2020-04-09 15:30:03 info [server.js]: Express server listening on port : 3000
+2020-04-09 15:30:17 info [server.js]: registerUser controller
+2020-04-09 15:31:05 info [server.js]: Express server listening on port : 3000
+2020-04-09 15:31:09 info [server.js]: registerUser controller
+2020-04-09 15:34:31 info [server.js]: Express server listening on port : 3000
+2020-04-09 15:35:19 info [server.js]: Express server listening on port : 3000
+2020-04-09 15:35:34 info [server.js]: registerUser controller
+2020-04-09 15:36:40 info [server.js]: Express server listening on port : 3000
+2020-04-09 15:36:48 info [server.js]: Express server listening on port : 3000
+2020-04-09 15:36:57 info [server.js]: authenticateJWT
+2020-04-09 15:36:57 info [server.js]: Initaiated getContacts
+2020-04-09 15:37:33 info [server.js]: Express server listening on port : 3000
+2020-04-09 15:37:38 info [server.js]: authenticateJWT
+2020-04-09 15:38:03 info [server.js]: registerUser controller
+2020-04-09 15:38:40 info [server.js]: authenticateJWT
+2020-04-09 15:38:40 info [server.js]: Initaiated getContacts
+2020-04-09 15:59:48 info [server.js]: Express server listening on port : 3000
+2020-04-09 16:00:16 info [server.js]: Express server listening on port : 3000
+2020-04-09 16:00:49 info [server.js]: Express server listening on port : 3000
+2020-04-09 16:00:59 info [server.js]: Express server listening on port : 3000
+2020-04-09 16:01:03 info [server.js]: Express server listening on port : 3000
+2020-04-09 16:10:34 info [server.js]: Express server listening on port : 3000
+2020-04-09 16:12:33 info [server.js]: Express server listening on port : 3000
+2020-04-09 16:12:37 info [server.js]: Express server listening on port : 3000
+2020-04-09 16:12:41 info [server.js]: Express server listening on port : 3000
+2020-04-09 16:12:47 info [server.js]: Express server listening on port : 3000
+2020-04-09 16:13:17 info [server.js]: Express server listening on port : 3000
+2020-04-09 16:14:41 info [server.js]: Express server listening on port : 3000
+2020-04-09 16:15:58 info [server.js]: Express server listening on port : 3000
+2020-04-09 16:16:35 info [server.js]: Express server listening on port : 3000
+2020-04-09 16:17:16 info [server.js]: Express server listening on port : 3000
+2020-04-09 16:17:45 info [server.js]: Express server listening on port : 3000
+2020-04-09 16:52:44 info [server.js]: Express server listening on port : 3000
+2020-04-09 16:54:18 info [server.js]: Express server listening on port : 3000
+2020-04-09 16:58:31 info [server.js]: Express server listening on port : 3000
+2020-04-09 17:01:15 info [server.js]: Express server listening on port : 3000
+2020-04-09 17:01:29 info [server.js]: registerUser controller
+2020-04-09 17:02:21 info [server.js]: Express server listening on port : 3000
+2020-04-09 17:02:44 info [server.js]: registerUser controller
+2020-04-09 17:03:27 info [server.js]: Express server listening on port : 3000
+2020-04-09 17:03:32 info [server.js]: Express server listening on port : 3000
+2020-04-09 17:25:03 info [server.js]: Express server listening on port : 3000
+2020-04-09 17:25:16 info [server.js]: registerUser controller
+2020-04-09 17:25:53 info [server.js]: Express server listening on port : 3000
+2020-04-09 17:26:11 info [server.js]: Express server listening on port : 3000
+2020-04-09 17:26:14 info [server.js]: registerUser controller
+2020-04-09 17:26:37 info [server.js]: Express server listening on port : 3000
+2020-04-09 17:26:40 info [server.js]: registerUser controller
+2020-04-09 17:36:53 info [server.js]: Express server listening on port : 3000
+2020-04-09 17:39:23 info [server.js]: Express server listening on port : 3000
+2020-04-09 17:44:56 info [server.js]: Express server listening on port : 3000
+2020-04-09 17:45:56 info [server.js]: Express server listening on port : 3000
+2020-04-09 17:46:09 info [server.js]: Express server listening on port : 3000
+2020-04-09 17:46:45 info [server.js]: Express server listening on port : 3000
+2020-04-09 17:47:21 info [server.js]: Express server listening on port : 3000
+2020-04-09 17:49:19 info [server.js]: Express server listening on port : 3000
+2020-04-09 17:49:32 info [server.js]: registerUser controller
+2020-04-09 18:21:20 info [server.js]: Express server listening on port : 3000
+2020-04-09 18:21:28 info [server.js]: registerUser controller

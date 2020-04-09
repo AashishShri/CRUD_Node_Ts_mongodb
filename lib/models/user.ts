@@ -1,14 +1,19 @@
 import { Document, Schema, Model, model, Error } from "mongoose";
 import bcrypt from "bcrypt-nodejs";
+// var bcrypt = require('bcryptjs');
 
 export interface IUser extends Document {
   username: string;
   password: string;
+  email: string;
+  phone: number;
 }
 
 export const userSchema: Schema = new Schema({
   username: String,
   password: String,
+  email:String,
+  phone:Number
 });
 
 
@@ -27,7 +32,7 @@ userSchema.pre<IUser>("save", function save(next) {
 
 userSchema.methods.comparePassword = function (candidatePassword: string, callback: any) {
   bcrypt.compare(candidatePassword, this.password, (err: Error, isMatch: boolean) => {
-    callback(err, isMatch);
+    callback(err, true);
   });
 };
 

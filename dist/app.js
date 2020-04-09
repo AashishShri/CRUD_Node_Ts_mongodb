@@ -21,12 +21,13 @@ class App {
         this.routePrv = new crmRoutes_1.Routes();
         this.routePrv1 = new userRoutes_1.UserRoutes();
         // public mongoUrl: string = 'mongodb://localhost/CRMdb';
-        this.mongoUrl = 'mongodb://Aashish:123456@localhost:27017/CRMdb';
+        this.mongoUrl = "mongodb://Aashish:123456@localhost:27017/CRMdb";
         this.app = express_1.default();
         this.config();
         this.routePrv.routes(this.app);
         this.routePrv1.userRoutes(this.app);
         this.mongoSetup();
+        process.env['NODE_CONFIG_DIR'] = __dirname + '../config';
     }
     config() {
         this.app.use(bodyParser.json());
@@ -34,9 +35,11 @@ class App {
     }
     mongoSetup() {
         mongoose_1.default.Promise = global.Promise;
-        mongoose_1.default.connect(this.mongoUrl, { useUnifiedTopology: true,
+        mongoose_1.default.connect(this.mongoUrl, {
+            useUnifiedTopology: true,
             useNewUrlParser: true,
-            useFindAndModify: true, });
+            useFindAndModify: true,
+        });
     }
 }
 exports.default = new App().app;

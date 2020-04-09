@@ -1,0 +1,16 @@
+{
+    "JWT_SECRET": "@Aashish",
+    "logLevel": "debug",
+    "logging": {
+      "silent": false
+      
+    },
+    "key": "default_key",
+    "mailAuth":{
+      "user": "",
+      "password": ""
+  
+    }
+}
+    
+  
