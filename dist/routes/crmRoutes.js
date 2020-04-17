@@ -9,6 +9,7 @@ class Routes {
     }
     routes(app) {
         console.log("This is crn routes");
+        // Routes
         app.route("/").get((req, res) => {
             res.status(200).send({
                 message: "GET request successfulll!!!!",

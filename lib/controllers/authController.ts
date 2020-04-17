@@ -1,6 +1,5 @@
 import { NextFunction, Request, Response } from "express";
 import passport from "passport";
-// import "../auth/passportHandler";
 import "../auth/passportHandler";
 const logger = require("../winston/winston");
 

@@ -13,5 +13,8 @@
 	"securityDefinitions": {},
 	"produces": [
 		"application/json"
-	]
+	],
+	"ignore": [
+		"**/node_modules/**"
+	  ]
 }

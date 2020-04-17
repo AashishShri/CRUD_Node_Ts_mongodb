@@ -3,13 +3,7 @@ import { ContactSchema } from "../models/crmModel";
 import { Request, Response } from "express";
 const logger = require("../winston/winston");
 const Contact = mongoose.model("Contact", ContactSchema);
-import { Tags } from 'typescript-rest-swagger';
-import {
-  Path, POST, GET, PathParam,
-} from 'typescript-rest';
 
-@Tags('CrnApps')
-@Path('/CrnApps')
 export class ContactController {
   
   public addNewContact(req: Request, res: Response) {

@@ -3,6 +3,7 @@ import express from "express";
 import * as bodyParser from "body-parser";
 import { Routes } from "./routes/crmRoutes";
 import { UserRoutes } from "./routes/userRoutes";
+import { ImageUploadRoutes } from "./routes/imageUploadRoutes";
 // import * as swaggerUi from 'swagger-ui-express';
 import mongoose from "mongoose";
 import { Server } from 'typescript-rest';
@@ -15,8 +16,9 @@ class App {
   public app: express.Application;
   public routePrv: Routes = new Routes();
   public routePrv1: UserRoutes = new UserRoutes();
-  // public mongoUrl: string = 'mongodb://localhost/CRMdb';
-  public mongoUrl: string = "mongodb://Aashish:123456@localhost:27017/CRMdb";
+  public imageUplaodRoutes: ImageUploadRoutes = new ImageUploadRoutes();
+  public mongoUrl: string = 'mongodb://localhost/CRMdb';
+  // public mongoUrl: string = "mongodb://Aashish:123456@localhost:27017/CRMdb";
   private server: http.Server = null;
   
 
@@ -25,12 +27,13 @@ class App {
     this.config();
     this.routePrv.routes(this.app);
     this.routePrv1.userRoutes(this.app);
+    this.imageUplaodRoutes.imageUplaodRoutes(this.app);
     this.mongoSetup();
     // process.env['NODE_CONFIG_DIR'] = __dirname + '../config';
     Server.swagger(this.app, {
       endpoint: 'api-docs',
       filePath: path.resolve(process.cwd(), './swagger.json'),
-      host: 'localhost',
+      host: 'http://localhost:3000',
       schemes: ['http'],
     });
   }

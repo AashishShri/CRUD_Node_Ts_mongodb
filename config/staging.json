@@ -1,5 +1,6 @@
  {
     "JWT_SECRET": "@Aashish",
+    "UPLOAD_PATH" : "uploads",
     "logLevel": "debug",
     "logging": {
       "silent": false

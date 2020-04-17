@@ -227,3 +227,21 @@
 2020-04-09 22:41:21 info [server.js]: Express server listening on port : 3000
 2020-04-09 22:41:34 info [server.js]: authenticateJWT
 2020-04-09 22:41:34 info [server.js]: Initaiated getContacts
+2020-04-10 15:45:05 info [server.js]: Express server listening on port : 3000
+2020-04-10 15:45:41 info [server.js]: Express server listening on port : 3000
+2020-04-10 15:45:47 info [server.js]: Express server listening on port : 3000
+2020-04-10 15:48:20 info [server.js]: Express server listening on port : 3000
+2020-04-11 22:50:19 info [server.js]: Express server listening on port : 3000
+2020-04-11 22:58:14 info [server.js]: Express server listening on port : 3000
+2020-04-11 23:01:43 info [server.js]: Express server listening on port : 3000
+2020-04-11 23:01:50 info [server.js]: Express server listening on port : 3000
+2020-04-11 23:01:55 info [server.js]: Express server listening on port : 3000
+2020-04-11 23:02:35 info [server.js]: Express server listening on port : 3000
+2020-04-11 23:03:29 info [server.js]: Express server listening on port : 3000
+2020-04-11 23:03:33 info [server.js]: Express server listening on port : 3000
+2020-04-11 23:03:44 info [server.js]: Express server listening on port : 3000
+2020-04-11 23:05:04 info [server.js]: Express server listening on port : 3000
+2020-04-11 23:08:02 info [server.js]: Express server listening on port : 3000
+2020-04-11 23:09:06 info [server.js]: Express server listening on port : 3000
+2020-04-11 23:11:30 info [server.js]: Express server listening on port : 3000
+2020-04-11 23:14:01 info [server.js]: Initaiated update image upoad

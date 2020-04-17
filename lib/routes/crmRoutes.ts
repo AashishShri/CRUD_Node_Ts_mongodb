@@ -8,7 +8,8 @@ export class Routes {
   
   public routes(app): void {
     console.log("This is crn routes");
-    
+    // Routes
+
     app.route("/").get((req: Request, res: Response) => {
       res.status(200).send({
         message: "GET request successfulll!!!!",
