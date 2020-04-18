@@ -23,6 +23,8 @@ export class Routes {
     // Create a new contact
     app.route("/contact").post(this.authController.authenticateJWT,this.contactController.addNewContact);
 
+    app.route("/contact/bulk").post(this.contactController.addBulkContact);
+
     // get a specific contact
     app
       .route("/contact/:contactId")
